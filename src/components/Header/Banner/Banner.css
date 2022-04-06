@@ -1,0 +1,126 @@
+
+.rowItem{
+    padding-top: 210px;
+    padding-bottom: 109px;
+}
+
+
+
+
+
+.banner-main{
+    background-image: url("https://i.ibb.co/cY9V2Dt/r8-1.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+    /* background-position: center right; */
+    height: 920px;
+    position: relative;
+}
+.banner-main::after{
+    content : "";
+    background : url(https://i.ibb.co/pv50Bnm/Ellipse-1.png) no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 252px;
+    left: 0;
+     }
+.banner-main::before{
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+
+
+.run {
+    bottom: -49%;
+    position: absolute;
+    animation: run 1.5s infinite; 
+   
+  }
+  @keyframes run {
+    /* 0% { right: 0px;}
+    50%{ right : 5px;}
+    100%{ right: 0;} */
+    0%, 100% {
+        transform: translate(0, 0);
+      }
+      
+      50% {
+        transform: translate(5px, 0);
+      }
+      
+      80% {
+        transform: translate(-5px, 0);
+      }
+  }
+  .wrapper{
+    position: relative !important;
+  }
+
+  .wrapper::after{
+    content : "";
+    background : url(https://i.ibb.co/S0RDZQ3/r7-2.png) no-repeat;
+    position: absolute;
+    height: 23%;
+    width: 21%;
+    top: 177px;
+    left: 75%;
+     animation: run 1.5s infinite; 
+     }
+  .wrapper::before{
+    content : "";
+    background : url(https://i.ibb.co/TgTWzSv/Asset-5-2x-8.png) no-repeat;
+    position: absolute;
+    height: 27%;
+    width: 15%;
+    top: -130px;
+    left: 59%;
+    
+     }
+.banner-but-1{
+    /* position: absolute; */
+    width: 165px;
+    height: 51px;
+    /* left: 297px;
+    top: 752px; */
+    margin-top: 30px;
+    border: 0px;
+    background: linear-gradient(95.48deg, #2317FA -1.25%, #D529E4 97.48%);
+    box-shadow: 6px 16px 31px 8px rgba(59, 88, 239, 0.15);
+    border-radius: 0px;
+}
+
+.title{
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 82.6667px;
+    line-height: 100px;
+    padding-bottom: 10px;
+}
+.para{
+    color: #DADADA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+}
+.b-item{
+  background-color: black;
+    width: 57%;
+    border-radius: 5px;
+}
+.text-color-item{
+    background: linear-gradient(95.79deg, #2317FA -33.63%, #D529E4 97.49%);
+
+    background-clip: text;
+    text-shadow: 6px 16px 31px rgba(59, 88, 239, 0.1);
+    background-color: red;
+
+}

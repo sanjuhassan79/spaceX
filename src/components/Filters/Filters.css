@@ -1,0 +1,98 @@
+.filterNavebar{
+    background: #2D2853;
+    opacity: 0.6;
+  
+    padding: 18px 0;
+}
+
+.custom-select {
+    min-width: 54px;
+    margin: 0 auto;
+    border: none;
+    background-color: #16013e00;
+    z-index: 10;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #DADADA;
+
+  }
+  .custom-select select {
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    padding: 12px 55px 15px 15px;
+    font-size: 14px;
+    color: #714BB9;
+  }
+  .custom-select:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    line-height: 38px;
+    content: "∨";
+    text-align: center;
+    color: #714BB9;
+    font-size: 24px;
+    border-left: 1px solid #3C1C78;
+    z-index: -1;
+  }
+
+  .form_control_ite {
+    display: inline !important;
+    width: 65% !important;
+    padding: 0.375rem 0.75rem;
+    color: #f4f6f8 !important;
+    background-color: #fff0 !important;
+    opacity: 0.4;
+    border: 1.5px solid #DADADA;
+    box-sizing: border-box;
+    border-radius:0px !important;
+  
+}
+
+
+.input-group-btn {
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+.btn-sub_fit {
+    min-height: 37px;
+ 
+    background: #243c4f03;
+    color: #FFFFFF;
+    font-weight: 300;
+    border: 1.5px solid #DADADA;
+   
+}
+
+.btn-sub:hover {
+    background: red;
+    color: #fff
+}
+
+.borderitem{
+    position: relative;
+}
+.borderitem::before{
+    content:'' ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #f3efef;
+    top: 3px;
+    left: -24px;
+
+}

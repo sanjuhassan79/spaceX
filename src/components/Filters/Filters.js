@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Filters.css'
 
-const Filters = ({launchData,setLaunchData}) => {
+const Filters = ({launchData,setdisplayfilterr}) => {
 
  
 
@@ -13,9 +13,10 @@ const Filters = ({launchData,setLaunchData}) => {
         evt.preventDefault();
        
         const post = launchData.filter(item =>
-          item.rocket.rocket_name.toUpperCase().indexOf(inq.toUpperCase()) > -1
+          item.rocket.rocket_name.toUpperCase().indexOf(inq.toUpperCase()) !== -1
         );
-        setLaunchData(post)
+        // setlaunchfilter(post)
+        setdisplayfilterr(post)
        
       };
     
@@ -29,9 +30,10 @@ const Filters = ({launchData,setLaunchData}) => {
         
 console.log(year);
         const post = launchData.filter(item =>
-          item.launch_year.indexOf(year) > -1
+          item.launch_year.indexOf(year) !== -1
         );
-        setLaunchData(post)
+        // setlaunchfilter(post)
+        setdisplayfilterr(post)
       }
       const handleupcomingChange = (e) => {
        
@@ -39,7 +41,7 @@ console.log(e.target.value);
       
          const post = launchData.filter(Boolean)
        
-        setLaunchData(post)
+         setdisplayfilterr(post)
       }
 
 
@@ -47,24 +49,28 @@ console.log(e.target.value);
 
 
     return (
-        <div className="">
+        
 
-<div className="container filterNavebar">
-  
-  <div className="row">
-    <div className="col-sm-2 py-2 borderitem">
+<div class="container filterNavebar">
+ 
+  <div class="row">
     
-    Is upcoming? <select onChange={(e) =>handleupcomingChange(e)}
+    
+    <div class="col col-lg-2 py-2">
+      <div className='select_item'>
+      Is upcoming? <select onChange={(e) =>handleupcomingChange(e)}
           className="custom-select"
           aria-label="Filter Countries By Region">
             <option value='true'>Yes</option>
             <option value='false'>No</option>
             
           </select> 
-         
+      </div>
+  
     </div>
-    <div className="col-sm py-2">
-    Launch year? <select onChange={(e) =>handleYearChange(e.target.value)}
+    <div class="col-md-auto py-2">
+      <div className='select_item'>
+      Launch year? <select onChange={(e) =>handleYearChange(e.target.value)}
           className="custom-select"
           aria-label="Filter Countries By Region">
             <option value="1990">1990</option>
@@ -75,9 +81,11 @@ console.log(e.target.value);
             <option value="2015">2011 - 2015</option>
             <option value="2020"> 2016 - 2020</option>
           </select>
-          </div>
-    <div className="col-sm">
-      
+      </div>
+    
+    </div>
+
+    <div class="col initem">
     <form onSubmit={onSubmit} className="bg-gray-200">
                 <input
                 type="text"
@@ -87,9 +95,13 @@ console.log(e.target.value);
                 onChange={onChange}
                 className="form-control form_control_ite"
                 />
+                <span className='input-group-btn_ite'>
                 <button type="submit" className="btn-sub_fit">
                 Search
                 </button>
+
+                </span>
+                
         </form>
     </div>
   </div>
@@ -97,7 +109,6 @@ console.log(e.target.value);
 
 
 
-          
 
 
 
@@ -110,23 +121,7 @@ console.log(e.target.value);
 
 
 
-          
 
-
-
-
-
-
-
-
-
-
-         
-
-
-
-                   
-        </div>
     );
 };
 

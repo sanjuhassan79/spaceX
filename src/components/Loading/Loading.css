@@ -1,0 +1,63 @@
+.rumeritem{
+    position: relative;
+}
+
+.rumer {
+    top: 36%;
+    left: 37%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0.1);
+    background: url("https://i.postimg.cc/R0yvt0Zp/Opera-Snapshot-2020-07-02-000517-www-freepik-com.png")
+      no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+    animation: pos 20s linear infinite;
+  }
+  .rumer span {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    border-radius: 50%;
+    animation: net 10s linear infinite;
+  }
+  .rumer span:nth-child(1) {
+    animation-delay: 0s;
+  }
+  .rumer span:nth-child(2) {
+    animation-delay: -2s;
+  }
+  .rumer span:nth-child(3) {
+    animation-delay: -4s;
+  }
+  @keyframes pos {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes net {
+    0% {
+      width: 300px;
+      height: 300px;
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      width: 500px;
+      height: 500px;
+      opacity: 0;
+    }
+  }
+  

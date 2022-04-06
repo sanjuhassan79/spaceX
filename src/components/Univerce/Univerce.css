@@ -131,3 +131,100 @@ box-shadow: 6px 16px 31px 8px rgba(59, 88, 239, 0.15)
     text-align: center;
     color: #FFFFFF;
   }
+
+
+  
+
+@media (max-width: 1366px) {
+  
+  .feature-item {
+    width: 354px;
+    
+}
+  
+  
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .feature-item {
+    width: 302px;
+}
+.feature-details {
+  padding: 0px 36px;
+}
+.feature-icon {
+  padding: 49px 93px;
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .feature-item {
+    width: 222px;
+}
+.feature-icon {
+  padding: 33px 52px;
+}
+.feature-details {
+  padding: 0px 8px;
+}
+.feature-details h4 {
+ 
+  font-size: 26px;
+ 
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .feature-item {
+    width: 222px;
+}
+.feature-icon {
+  padding: 33px 52px;
+}
+.feature-details {
+  padding: 0px 8px;
+}
+.feature-details h4 {
+ 
+  font-size: 26px;
+ 
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .feature-item {
+    width: 459px;
+    margin-bottom: 38px;
+    margin-left: 10px;
+}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
+}

@@ -15,7 +15,7 @@ console.log(props.details.upcoming);
     return (
 
 
-    <div class="col-md-3 text-center"> 
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3 text-center"> 
 
     <div className="carditem">
         <img className="card-img-top" src={links.mission_patch_small} alt="Card image cap"/>

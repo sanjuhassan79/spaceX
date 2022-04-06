@@ -37,7 +37,7 @@
 
 
 .run {
-    bottom: -49%;
+    bottom: -39%;
     position: absolute;
     animation: run 1.5s infinite; 
    
@@ -67,9 +67,9 @@
     background : url(https://i.ibb.co/S0RDZQ3/r7-2.png) no-repeat;
     position: absolute;
     height: 23%;
-    width: 21%;
-    top: 177px;
-    left: 75%;
+    width: 28%;
+    top: 58px;
+    left: 84%;
      animation: run 1.5s infinite; 
      }
   .wrapper::before{
@@ -123,4 +123,162 @@
     text-shadow: 6px 16px 31px rgba(59, 88, 239, 0.1);
     background-color: red;
 
+}
+
+
+@media only screen and (min-width: 1281px) {
+
+  .banner-main{
+    height: 800px;
+  
+}
+  .rowItem {
+    padding-top: 143px;
+    padding-bottom: 48px;
+}
+.run {
+  bottom: -25%;
+}
+.wrapper::after {
+  width: 34%;
+  
+}
+
+.wrapper::after {
+
+  top: 127px;
+ 
+}
+}
+
+
+
+@media (max-width: 1366px) {
+  .wrapper::after {
+
+    top: 195px;
+   
+  }
+  
+  
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .banner-main {
+    height: 759px;
+  
+}
+  .title {
+    font-size: 66.6667px;
+    line-height: 76px;
+    padding: 15px 0;
+}
+.para {
+  font-size: 20px;
+  line-height: 27px;
+}
+  .rowItem {
+    padding-top: 160px;
+    padding-bottom: 61px;
+}
+.run {
+  bottom: -12%;
+ 
+}
+.wrapper::after {
+  width: 25%;
+  height: 27%;
+  top: 130px;
+
+}
+.wrapper::before {
+  width: 22%;
+  height: 30%;
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .run {
+    bottom: 5%;
+}
+.title {
+ 
+  font-size: 60.6667px;
+  line-height: 71px;
+  padding: 10px 0;
+} 
+.wrapper::after {
+  display: none;
+
+}
+.wrapper::before {
+  display: none;
+}
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .run {
+    bottom: 5%;
+}
+.title {
+ 
+  font-size: 60.6667px;
+  line-height: 71px;
+  padding: 10px 0;
+} 
+.wrapper::after {
+  display: none;
+
+}
+.wrapper::before {
+  display: none;
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .b-item {
+    width: 79%;
+   
+}
+.title {
+  font-size: 68.6667px;
+  line-height: 84px;
+  padding: 12px 0px;
+}
+  .wrapper {
+    
+    display: none;
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
 }

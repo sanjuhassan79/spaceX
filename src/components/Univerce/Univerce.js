@@ -12,7 +12,7 @@ const Univerce = () => {
 
                 <div className="row">
 
-                <div className="col-lg-4">
+                <div className="col-md-4">
                     <div className="feature-item feature-item-1">
                         <div className="feature-icon">
                             <img className='imgitemf' src="https://i.ibb.co/WKtjk7P/t-2x.png" alt="Online/Offline Classrooms"/>
@@ -25,7 +25,7 @@ const Univerce = () => {
                 </div>
 
 
-                <div className="col-lg-4">
+                <div className="col-md-4">
                     <div className="feature-item feature-item-2">
                         <div className="feature-icon">
                             <img className='imgitemf' src="https://i.ibb.co/KmhsjDh/j-2x.png" alt="Personal Mentor Support"/>
@@ -37,7 +37,7 @@ const Univerce = () => {
                     </div>
                 </div> 
 
-            <div className="col-lg-4">
+            <div className="col-md-4">
                 <div className="feature-item feature-item-3">
                     <div className="feature-icon">
                         <img className='imgitemf' src="https://i.ibb.co/9njmj9s/se-2x.png" alt="Lifetime Slack Chat Support"/>

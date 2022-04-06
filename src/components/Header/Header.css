@@ -1,0 +1,38 @@
+a.navbarbrand {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.head-btn {
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+    padding: 7px 17px;
+}
+.btn-hean {
+    min-height: 47px;
+    background: #243c4f03;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    border: none;
+}
+
+/* .btn-hean:hover {
+    background: red;
+    color: #fff
+} */
+
+a.nav-linkpx-3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    
+}

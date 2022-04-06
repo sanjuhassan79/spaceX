@@ -32,3 +32,69 @@ h4.card-title.h4.mission_name {
     margin-bottom: 0px;
 
 }
+
+
+
+
+@media (max-width: 1366px) {
+  
+    .carditem {
+        width: 257px;
+        
+    }
+    
+  }
+  
+  
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .carditem {
+        width: 212px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .carditem {
+        width: 211px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .carditem {
+        width: 211px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 375px) and (max-width: 767px) {
+    .carditem {
+        width: 467px;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    
+  }

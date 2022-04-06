@@ -7,7 +7,7 @@ const Banner = () => {
 <div className="container ">
  
  <div className="row rowItem">
-      <div className="col-4">
+      <div className="col-12 col-md-6 col-sm-6">
 
           <div>
               <div className="b-item">
@@ -26,7 +26,7 @@ const Banner = () => {
 
 
       </div>
-     <div className="col-8 wrapper">
+     <div className="col-12 col-md-6 col-sm-6 wrapper">
       <div className="item">
       <img src="https://i.ibb.co/m42JXPy/Asset-1-8x-8-1.png" className="run img-fluid" alt="..."/>
          </div> 

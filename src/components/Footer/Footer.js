@@ -17,15 +17,15 @@ const Footer = () => {
           <div className="container">
             <div className="row">
   
-              <div className="col-md-3">
+              <div className="col-md-3 col-3">
               <a className="navbar-brand" href="#"> <img src="https://i.ibb.co/2gx1sjq/Vector.png" className="img-fluid" alt="..."/> space</a>
               </div>
   
-              <div className="col-md-6">
+              <div className="col-md-6 col-6">
                <p className='copy'>Space 2020, All rights reserved.</p>
               </div>
   
-              <div className="col-md-3">
+              <div className="col-md-3 col-3">
                 <div id="footer-socials">
                   <div className="socials inline-inside socials-colored">
   

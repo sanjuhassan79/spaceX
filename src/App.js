@@ -2,9 +2,10 @@
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import './App.css';
+import Banner from './components/Banner/Banner';
 // import Filters from './components/Filters/Filters';
 import Footer from './components/Footer/Footer';
-import Banner from './components/Header/Banner/Banner';
+
 import Header from './components/Header/Header';
 import LaunchesHome from './components/LaunchesHome/LaunchesHome';
 import Univerce from './components/Univerce/Univerce';

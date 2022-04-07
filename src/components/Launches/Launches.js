@@ -13,7 +13,7 @@ const Launches = (props) => {
 
 
     const [launchData, setLaunchData] = useState([]);
-     const [displayfilter, setdisplayfilterr] = useState([...launchData]);
+     const [displayfilter, setdisplayfilterr] = useState([]);
     const [loading, setLoading] = useState(true);
     const [currentPage, setCurrentPage] = useState(1);
     const [postsPerPage] = useState(10);
@@ -24,6 +24,7 @@ const Launches = (props) => {
 
   
 console.log(launchData);
+console.log(displayfilter);
 useEffect(() => {
         let url = `${baseUrl}`;
       
@@ -53,7 +54,7 @@ useEffect(() => {
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = displayfilter.slice(indexOfFirstPost, indexOfLastPost);
-console.log(displayfilter);
+
   // Change page
   const paginate = pageNumber => setCurrentPage(pageNumber);
 
@@ -76,7 +77,7 @@ console.log(displayfilter);
 
                       <Pagination
                           postsPerPage={postsPerPage}
-                          totalPosts={launchData.length}
+                          totalPosts={displayfilter.length}
                           paginate={paginate}
                         />
 

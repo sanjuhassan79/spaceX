@@ -67,7 +67,7 @@ useEffect(() => {
           <div class="container">
                       <div class="row">
                      {loading && <Loading></Loading>} 
-                     {launchData.length === 0 && (
+                     {displayfilter.length === 0 && (
                         <div>Your data could not be found</div>
                       )}
                       { currentPosts.map((missionDetails) => (

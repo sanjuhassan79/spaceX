@@ -1,3 +1,11 @@
+.footerbrand {
+    font-family: 'Russo One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
 .content {
     max-width: 650px;
     margin: 83px auto;
@@ -107,12 +115,10 @@ a.socials-item {
     text-rendering: auto;
 }
 
-.facebook {
-    color: #4e64b5;
-}
+
 
 .twitter {
-    color: #00aced;
+    color: #08070e;
 }
 
   

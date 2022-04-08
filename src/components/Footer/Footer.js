@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="row">
   
               <div className="col-md-3 col-3">
-              <a className="navbar-brand" href="#"> <img src="https://i.ibb.co/2gx1sjq/Vector.png" className="img-fluid" alt="..."/> space</a>
+              <a className="navbar-brand footerbrand" href="#"> <img src="https://i.ibb.co/2gx1sjq/Vector.png" className="img-fluid" alt="..."/> space</a>
               </div>
   
               <div className="col-md-6 col-6">
@@ -29,11 +29,16 @@ const Footer = () => {
                 <div id="footer-socials">
                   <div className="socials inline-inside socials-colored">
   
-                    <a href="#" target="_blank" title="Facebook" className="socials-item">
-                      <i className="fab fa-facebook-f facebook"></i>
-                    </a>
+                    
                     <a href="#" target="_blank" title="Twitter" className="socials-item">
                       <i className="fab fa-twitter twitter"></i>
+  
+                    </a>
+                    <a href="#" target="_blank" title="Facebook" className="socials-item">
+                      <i className="fab fa-facebook-f twitter"></i>
+                    </a>
+                    <a href="#" target="_blank" title="Linkdin" className="socials-item">
+                    <i class="fa-brands fa-linkedin-in twitter"></i>
   
                     </a>
                    

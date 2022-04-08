@@ -2,7 +2,7 @@ import React from 'react';
 import './LaunchesItem.css'
 const LaunchesItem = (props) => {
 
-console.log(props.details.upcoming);
+// console.log(props.details.launch_year);
   const {
     mission_name,
     rocket,
@@ -11,7 +11,7 @@ console.log(props.details.upcoming);
     upcoming
   } = props.details;
 
-  console.log(upcoming);
+  // console.log(typeof launch_year);
     return (
 
 

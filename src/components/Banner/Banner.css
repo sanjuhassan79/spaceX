@@ -34,8 +34,29 @@
     width: 100%;
     z-index: -1;
   }
-
-
+.banner-mainshap{
+  position: relative;
+}
+.banner-mainshap::after {
+  content: "";
+  background: url(https://i.ibb.co/RSxq7Mh/2-1.png) no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 9%;
+  top: 6rem;
+  left: 9rem;
+  animation: run 1.5s infinite; 
+}
+.banner-mainshap::before{
+  content: "";
+  background: url(https://i.ibb.co/S0KqF58/3-1.png) no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 26%;
+  bottom: -38rem;
+  right: 1rem;
+  animation: run 1.5s infinite; 
+}
 .run {
     bottom: -39%;
     position: absolute;
@@ -129,7 +150,7 @@
 @media only screen and (min-width: 1281px) {
 
   .banner-main{
-    height: 800px;
+    height: 925px;
   
 }
   .rowItem {
@@ -149,6 +170,16 @@
   top: 127px;
  
 }
+.banner-mainshap:after {
+  left: 2rem;
+  top: 2rem;
+  width: 11%;
+}
+.banner-mainshap::before {
+
+  height: 83%;
+  
+}
 }
 
 
@@ -159,8 +190,8 @@
     top: 195px;
    
   }
-  
-  
+ 
+ 
 }
 
 
@@ -197,6 +228,7 @@
   width: 22%;
   height: 30%;
 }
+
 }
 
 /* 
@@ -221,6 +253,15 @@
 }
 .wrapper::before {
   display: none;
+}
+.banner-mainshap::after {
+  height: 15%;
+  width: 20%;
+ 
+}
+.b-item {
+  width: 74%;
+ 
 }
 }
 
@@ -257,17 +298,30 @@
 
 @media (min-width: 375px) and (max-width: 767px) {
   .b-item {
-    width: 79%;
+    width: 93%;
    
 }
 .title {
-  font-size: 68.6667px;
-  line-height: 84px;
+  font-size: 49.6667px;
+  line-height: 67px;
   padding: 12px 0px;
 }
   .wrapper {
     
     display: none;
+}
+
+.banner-mainshap::after {
+ 
+  width: 37%;
+  top: 6rem;
+  left: 1rem;
+ 
+}
+.banner-mainshap::before {
+  height: 85%;
+  width: 41%;
+  
 }
   
 }

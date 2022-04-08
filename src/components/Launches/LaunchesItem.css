@@ -84,8 +84,9 @@ h4.card-title.h4.mission_name {
   
   @media (min-width: 375px) and (max-width: 767px) {
     .carditem {
-        width: 467px;
-    }
+      width: 239px;
+      margin: 38px 0px 14px 0px;
+  }
   }
   
   /* 
@@ -95,6 +96,9 @@ h4.card-title.h4.mission_name {
   
   @media (min-width: 320px) and (max-width: 480px) {
     
-    /* CSS */
+    .carditem {
+      width: 239px;
+      margin: 38px 0px 14px 50px;
+  }
     
   }

@@ -23,8 +23,8 @@ const Launches = (props) => {
 
 
   
-console.log(launchData);
-console.log(displayfilter);
+// console.log(launchData);
+ console.log(displayfilter);
 useEffect(() => {
         let url = `${baseUrl}`;
       

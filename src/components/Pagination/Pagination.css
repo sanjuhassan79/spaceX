@@ -24,17 +24,20 @@ nav.data-pagination {
   width: auto;
   border-radius: 3px;
 }
-.data-pagination > a {
+/* .pagebutton {
   font-size: 140%;
   text-decoration: none;
-}
-.data-pagination a {
+} */
+.pagebutton {
   color: #777;
-  font-size: 100%;
-  padding: .5em;
+  font-size: 62%;
+  padding: 0.5em;
+  background-color: #2c1e1e;
+  border: navajowhite;
+  margin: 10px;
 }
-.data-pagination a:focus,
-.data-pagination a:hover {
+.pagebutton:focus,
+.pagebutton:hover {
   color: #f60;
 }
 .data-pagination li.current {

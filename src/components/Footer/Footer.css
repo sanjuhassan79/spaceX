@@ -74,6 +74,7 @@ span.input-group-btn {
 }
 #footer-socials {
     text-align: right;
+    
 }
 
 #footer-socials .socials {
@@ -124,7 +125,7 @@ a.socials-item {
   
   @media (min-width: 375px) and (max-width: 767px) {
     .input-group {
-        width: 86%;
+        width: 91% !important;
         margin: 0 auto;
     }
     .copy {
@@ -133,6 +134,7 @@ a.socials-item {
     }
     #footer-socials {
         margin-top: 14px;
+        text-align: center;
     }
   }
   

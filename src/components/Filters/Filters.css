@@ -88,19 +88,6 @@
     color: #fff
 }
 
-/* .borderitem{
-    position: relative;
-}
-.borderitem::before{
-    content:'' ;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-right: 1px solid #f3efef;
-    top: 3px;
-    left: -24px;
-
-} */
 
 .select_item {
     margin: 0 auto;
@@ -108,51 +95,15 @@
 }
 
 
-@media (max-width: 1366px) {
-  
-   
-    
-}
-
-
-
-@media (min-width: 1025px) and (max-width: 1280px) {
- 
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
- 
-  
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
 
 @media (min-width: 375px) and (max-width: 767px) {
     .initem {
         margin-left: 4rem;
     }
     .select_item {
-       
-        width: 43% !important;
-    }
+      width: 61% !important;
+      margin-bottom: 2rem;
+  }
 }
 
 /* 
@@ -162,7 +113,13 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   
-  /* CSS */
+  .initem {
+    margin-left: 4rem;
+}
+.select_item {
+  width: 61% !important;
+  margin-bottom: 2rem;
+}
   
 }
 

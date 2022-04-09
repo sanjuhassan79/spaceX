@@ -333,6 +333,30 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
   
-  /* CSS */
+  .wrapper {
+    
+    display: none;
+}
+.b-item {
+  width: 78%;
+ 
+}
+.title {
+  font-size: 59.6667px;
+  line-height: 64px;
   
+}
+.banner-mainshap::before {
+  width: 61%;
+  bottom: -5rem;
+  height: 22%;
+}
+.banner-mainshap::after {
+ 
+  height: 16%;
+  width: 40%;
+  top: 4rem;
+  left: 6rem;
+  
+}
 }

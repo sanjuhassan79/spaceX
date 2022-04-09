@@ -93,11 +93,18 @@ h4.card-title.h4.mission_name {
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
+  @media (min-width: 360px) and (max-width: 374px) {
+    .carditem {
+     
+      margin: 38px 0px 14px 18px !important;
+  }
+ 
+    
+  }
   @media (min-width: 320px) and (max-width: 480px) {
     
     .carditem {
-      width: 239px;
+      width: 290px;
       margin: 38px 0px 14px 50px;
   }
     

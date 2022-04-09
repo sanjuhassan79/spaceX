@@ -213,18 +213,33 @@ box-shadow: 6px 16px 31px 8px rgba(59, 88, 239, 0.15)
 
 
 
+@media (min-width: 360px) and (max-width: 374px) {
+  
+  .feature-item {
+    width: 304px !important;
+    margin-bottom: 38px;
+    margin-left: 16px;
+}
+.feature-icon {
+  padding: 44px 104px;
+}
+.feature-details {
+  padding: 10px 35px;
+}
+  
+}
 @media (min-width: 320px) and (max-width: 480px) {
   
   .feature-item {
-    width: 300px;
+    width: 340px;
     margin-bottom: 38px;
-    margin-left: 24px;
+    margin-left: 16px;
 }
 .feature-icon {
-  padding: 14px 70px;
+  padding: 44px 104px;
 }
 .feature-details {
-  padding: 0px 35px;
+  padding: 10px 35px;
 }
   
 }
